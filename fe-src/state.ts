@@ -3,7 +3,6 @@ dotenv.config();
 
 const API_BASE_URL = process.env.API_BASE_URL;
 const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN;
-// Crea una instancia del cliente de Mapbox con tu token
 
 const state = {
   data: {
