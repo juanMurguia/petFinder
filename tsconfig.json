@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "be-dist"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": ["./be-src/**/*.ts"]
+}
