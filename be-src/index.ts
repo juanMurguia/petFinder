@@ -48,7 +48,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:1234",
+    origin: "https://desafio-apx-pet-finder.onrender.com",
     methods: "GET, POST, PUT, DELETE, OPTIONS",
     allowedHeaders: "Content-Type, Authorization",
   })
