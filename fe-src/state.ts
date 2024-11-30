@@ -1,7 +1,8 @@
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 dotenv.config();
 
-const API_BASE_URL = process.env.API_BASE_URL;
+const API_BASE_URL =
+  process.env.API_BASE_URL || "https://desafio-apx-pet-finder.onrender.com";
 const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN;
 
 const state = {

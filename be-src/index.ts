@@ -36,7 +36,10 @@ app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "apirulproduction.com");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://desafio-apx-pet-finder.onrender.com"
+  );
   res.setHeader(
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, OPTIONS"
