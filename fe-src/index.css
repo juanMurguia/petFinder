@@ -11,6 +11,6 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #007cbf; /* Color del marcador */
-  border: 2px solid #fff; /* Borde del marcador */
+  background-color: #007cbf; 
+  border: 2px solid white;
 }
