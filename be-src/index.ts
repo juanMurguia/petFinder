@@ -60,6 +60,10 @@ app.listen(port, () => {
   console.log("Escuchando en el puerto:", port);
 });
 
+app.get("/test", async (req, res) => {
+  res.json("Api test");
+});
+
 app.post("/auth", async (req, res) => {
   if (req.body) {
     const user = await autenticarUser(req.body);

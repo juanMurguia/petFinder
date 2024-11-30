@@ -33,12 +33,11 @@ export function initButtonComponent() {
             justify-content:center;
          }
            .mi-button{
-               background-color:#006CFC;
+               background-color:#25CED1;
                width:335px;
                height:50px;
                border:none;
-               border-radius: 5px;
-   
+               border-radius:50px;
                color:white; 
                cursor: pointer;
                transition: transform 0.2s;

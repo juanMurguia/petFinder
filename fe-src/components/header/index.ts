@@ -34,7 +34,7 @@ export function initHeader() {
            <img class="menu" src="https://res.cloudinary.com/dkzmrfgus/image/upload/v1713902741/pet-finder/aklfxmmd9ppfhfc9stwb.png" alt="menu" />
         </div>
           <div class="container_links">
-            <button type="submit" class="cerrar">✖️</button>
+            <button type="submit" class="cerrar">X</button>
             <a class="enlaces" href="/mis-datos">Mis Datos</a>
             <a class="enlaces" href="/mis-reportes">Mis mascotas reportadas</a>
             <a class="enlaces" href="/crear-reporte">Crear reporte</a>
@@ -89,7 +89,7 @@ export function initHeader() {
           imgMenu.style.flexDirection = "column";
           imgMenu.style.justifyContent = "center";
           imgMenu.style.alignItems = "center";
-          imgMenu.style.backgroundColor = "#26302E";
+          imgMenu.style.backgroundColor = "#A52422";
           imgMenu.style.position = "absolute";
           imgMenu.style.zIndex = "2";
           imgMenu.style.top = "0";
@@ -121,9 +121,10 @@ export function initHeader() {
             .header{
                 display: flex;
                 justify-content: space-between;
-                background-color: #26302E;
-                height:60px;
-                padding: 20px 0;
+                background-color: #A52422;
+                height:50px;
+                align-items:center;
+                padding: 10px 0;
             }
             .container-img{
               padding-left:35px;
@@ -133,20 +134,24 @@ export function initHeader() {
             .imagen {
                 background-size: contain; 
                 background-repeat: no-repeat;
-                width: 70px;
-                height: 70px;
+                width: 50px;
+                height: 50px;
               }
               
             .container_links, .email-cerrar-sesion{
               display:none;
-
             }
 
             .cerrar{
               color:white;
-              font-size:20px;
-              margin:35px 0;
-
+              font-size:30px;
+              padding:16px;
+              margin:0px 0px;
+              background:none;
+              border:none;
+              position:absolute;
+              top:0;
+              right:0;
             }
 
             .enlaces{
@@ -156,7 +161,7 @@ export function initHeader() {
               color:white;
               padding-bottom:50px;
               font-family: "Poppins", sans-serif;
-
+            margin-top:30px;
             }
 
             .enlace-email{
