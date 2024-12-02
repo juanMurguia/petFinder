@@ -209,8 +209,8 @@ app.post("/send-email", async (req, res) => {
 
   const msg = {
     to: email,
-    from: "ezequielezequiel9@gmail.com",
-    subject: "Hola usuario de PetFinder (Informacion sobre su mascota perdida)",
+    from: "juancruzmur@gmail.com",
+    subject: "Hola usuario de PetFinder",
     text: `Nombre del que reporto: ${nameReport}\nTeléfono del usuario que reporto: ${phoneNumber}\nInformación sobre su mascota: ${moreAboutReport}`,
   };
 

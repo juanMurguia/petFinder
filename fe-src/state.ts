@@ -115,6 +115,7 @@ const state = {
   },
 
   async verifyEmail() {
+    console.log(process.env.API_BASE_URL);
     const currentState = this.getState();
     if (currentState.email) {
       const response = await fetch(API_BASE_URL + "/verify-email", {
